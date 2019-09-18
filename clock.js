@@ -13,6 +13,9 @@ function getTimeRemaining(endtime) {
       'seconds': seconds
     };
   }
+
+
+  
   
   function initializeClock(id, endtime) {
     var clock = document.getElementById(id);
