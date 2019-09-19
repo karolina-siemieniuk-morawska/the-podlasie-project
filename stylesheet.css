@@ -71,34 +71,38 @@ hr {
     background-color: #a3db5a;
 }
 
-#cover-photo {
+section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    width: 85%;
+    height: 500px;
+}
+
+.cover-photo {
+    height: 100%;
+    width: 100%;
     background-image: url("cover-photo.jpg");
-    opacity: 0.7;
     background-color: #ECEFF1;
     background-position: center;
     background-repeat: no-repeat;
-    text-align: center;
-    height: 100%;
-    margin: 5% auto;
-    position: absolute;
+    background-size: cover;
+    opacity: 0.7;
 }
 
-#text {
+.text {
     background-color: white;
+    position: absolute;
     border-radius: 20px;
-    height: 330px;
-    width: 50%;
+    width: 50vmin;
     text-align: center;
-    padding: 40px;
-    padding-bottom: 40px;
     font-family: Libre Franklin;
-    font-size: 40px;
+    padding: 5%;
+    display: block;
     align-items: center;
-    margin: 150px auto;
-}
-
-.content {
-    font-size: 25px;
+    justify-content: center;
 }
 
 .greeting {
@@ -141,77 +145,60 @@ h5 {
     font-size: 20px;
 }
 
-.links {
-    background-size: cover;
-    width: 90%;
-    height: 500px;
-    background-color: white;
-    align-items: center;
-    padding: 40px;
-    padding-bottom: 40px;
-    font-family: Libre Franklin;
-    font-size: 40px;
-    margin: 50px auto;
-    font-size: 15px;
-    color: white;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* opacity: 0.1; */
-}
-
-#suprasl {
-    background-image: url(suprasl.jpg);
-}
-
-#kruszyniany {
-    background-image: url(kruszyniany.jpg);
-}
-
-#bialowieza {
-    background-image: url(białowieza.jpg);
-}
-
-#nocleg {
-    background-image: url(nocleg.jpg);
-}
-
-#restauracje {
-    background-image: url(restauracja.jpg);
-}
-
 a {
     text-decoration: none;
 }
 
-.inne {
-    color: black;
-    font-family: Open Sans Condensed;
-    font-size: 100px;
-    opacity: 1;
-    position: relative;
-    align-items: center;
-    font-weight: 400;
-    text-transform: uppercase;
-    padding-left: 100px;
-    margin: auto;
-}
-
-.inne:hover {
-    font-size: 120px;
-}
-
-#picture {
-    backgound-color: white;
+.outer-picture {
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 60%;
-    height: 250px;
-    background-color: white;
+}
+
+.inner-picture {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
     align-items: center;
-    padding: 40px;
-    padding-bottom: 40px;
-    margin: auto;
-    margin-top: 90px;
-    opacity: 0.5;
+    justify-content: center;
+}
+
+.suprasl {
+    background-image: url(suprasl.jpg);
+}
+
+.kruszyniany {
+    background-image: url(kruszyniany.jpg);
+}
+
+.bialowieza {
+    background-image: url(białowieza.jpg);
+}
+
+.nocleg {
+    background-image: url(nocleg.jpg);
+}
+
+.restauracja {
+    background-image: url(restauracja.jpg);
+}
+
+.link {
+    font-family: Raleway;
+    font-size: 7vw;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: underline overline;
+}
+
+.link:hover {
+    font-size: 8vw;
 }

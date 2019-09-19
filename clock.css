@@ -74,10 +74,13 @@ a:hover {
 h2 {
     color: white;
     font-weight: 500;
-    font-size: 90px;
-    margin: 40px 0px 20px;
-    font-family: Open Sans Condensed;
-    padding: 30px;
+    font-size: 6vw;
+    margin: auto;
+    font-family: Raleway;
+    text-decoration: overline;
+    padding: 50px;
+    position: absolute;
+    top: 1vh;
 }
 
 #clock {
@@ -89,10 +92,14 @@ h2 {
     text-align: center;
     height: 400px;
     width: 80%;
-    margin: 50px 150px;
-    position: absolute;
+    margin: 15px auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: bold;
     font-family: Open Sans Condensed;
+    top: 5vh;
 }
 
 #clockdiv {
@@ -101,7 +108,10 @@ h2 {
     display: inline-block;
     font-weight: 500;
     text-align: center;
-    font-size: 30px;
+    font-size: 3vw;
+    font-weight: bold;
+    position: absolute;
+    top: 30vh;
 }
 
 #clockdiv>div {
