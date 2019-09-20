@@ -15,15 +15,19 @@ header {
     padding-top: 1px;
     opacity: 0.85;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .title {
     font-family: Megrim;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 90px;
+    font-size: 40px;
     color: #FAFAFA;
-    padding-top: 5%;
+    margin: auto;
+    position: absolute;
 }
 
 hr {
@@ -36,11 +40,10 @@ hr {
 
 .navigation {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: auto;
     display: flex;
     width: 100%;
-    height: 50px;
+    height: 7vh;
     justify-content: space-around;
     border-color: #FAFAFA;
     border-style: solid;
@@ -51,7 +54,7 @@ hr {
     right: 0;
     overflow: auto;
     background-color: white;
-    opacity: 0.65;
+    opacity: 0.6;
 }
 
 .nav-buttons {
@@ -60,11 +63,12 @@ hr {
     text-decoration: none;
     font-weight: bold;
     display: block;
-    padding: 15px;
     width: 25%;
     margin: auto;
+    padding: 1.5vh;
     opacity: 1;
     font-family: Libre Franklin;
+    font-size: 3vmin;
 }
 
 .nav-buttons:hover {
@@ -97,9 +101,11 @@ section {
     position: absolute;
     border-radius: 20px;
     width: 50vmin;
+    height: 70%;
     text-align: center;
     font-family: Libre Franklin;
     padding: 5%;
+    margin: 5%;
     display: block;
     align-items: center;
     justify-content: center;
@@ -176,6 +182,10 @@ a {
 
 .kruszyniany {
     background-image: url(kruszyniany.jpg);
+}
+
+.odrynki {
+    background-image: url(odrynki.jpg);
 }
 
 .bialowieza {
