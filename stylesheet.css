@@ -197,6 +197,7 @@ a {
     font-weight: 400;
     text-transform: uppercase;
     text-decoration: underline overline;
+    transition: 0.3s all;
 }
 
 .link:hover {
