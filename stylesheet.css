@@ -68,7 +68,7 @@ hr {
     padding: 1.5vh;
     opacity: 1;
     font-family: Libre Franklin;
-    font-size: 3vmin;
+    font-size: 2.5vmin;
 }
 
 .nav-buttons:hover {
@@ -82,7 +82,7 @@ section {
     justify-content: center;
     margin: 50px auto;
     width: 85%;
-    height: 500px;
+    height: 85vh;
 }
 
 .cover-photo {
@@ -101,11 +101,9 @@ section {
     position: absolute;
     border-radius: 20px;
     width: 50vmin;
-    height: 70%;
     text-align: center;
     font-family: Libre Franklin;
     padding: 5%;
-    margin: 5%;
     display: block;
     align-items: center;
     justify-content: center;
@@ -212,4 +210,24 @@ a {
 
 .link:hover {
     font-size: 8vw;
+}
+
+.map {
+    position: absolute;
+    width: 75%;
+    top: 20%;
+    padding: 2px;
+}
+
+text {
+    position: absolute;
+    text-align: center;
+    font-family: Libre Franklin;
+    color: white;
+    font-size: 10vmin;
+    margin: auto;
+    text-decoration: overline;
+    top: 5%;
+    padding: 2%;
+    padding-top: 0;
 }
